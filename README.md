@@ -14,3 +14,8 @@
   <img src="https://github.com/AbdelrhmanAmen/Install-Stateful-App-on-K8s-Using-Helm/assets/73068684/809017c0-69cd-4ac3-a634-1a4f9c623f97"/>
 </p>
 
+## Steps
+1) Create the cluster
+2) Deploy Mongo DB StatefulSet
+3) Deploy MongoExpress
+4) Deploy Ingress
