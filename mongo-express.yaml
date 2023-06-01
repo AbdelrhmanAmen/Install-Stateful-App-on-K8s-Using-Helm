@@ -29,13 +29,6 @@ spec:
                 secretKeyRef:
                   name: mongodb
                   key: mongodb-root-password
-          volumeMounts:
-            - name: express-config
-              mountPath: /node_modules/mongo-express
-      volumes:
-        - name: express-config
-          configMap:
-            name: express-config
 ---
 apiVersion: v1
 kind: Service
